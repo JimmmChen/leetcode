@@ -1,10 +1,12 @@
 package jingchen;
 
+import dataStructure.TreeNode;
+
 public class BinarySearchTreeIterator {
-private TreeNode firstNode;
+	private TreeNode firstNode;
     
     public BSTIterator(TreeNode root) {
-        firstNode = tree2List(root);
+        this.firstNode = tree2List(root);
     }
     
     private TreeNode tree2List(TreeNode root){

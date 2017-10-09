@@ -1,5 +1,7 @@
 package jingchen;
 
+import java.util.List;
+
 public class MergeIntervals {
 	 public List<Interval> merge(List<Interval> intervals) {
 	        List<Interval> merged = new ArrayList<Interval>();
